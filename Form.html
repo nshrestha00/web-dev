@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Student form</legend>
+    <div class="container">
+    <h1 class="main_heading">Student Information Form</h1>
+        <form method="post">
+           <div>
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" placeholder="Enter your first name">
+           </div>
+        
+           <div>
+            <label for="fname"> Middle Name:</label>
+            <input type="text" id="mname" placeholder="Enter your middle name">
+        </div>
+        
+           <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Enter your last name">
+        </div>
+        
+        <div>
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </div>
+        <div>
+            <label for="date of birth">Date of birth:</label>
+            <input type="date" id="DOB" placeholder="Enter your date of birth">
+        </div>
+        <div>
+            <label for="mobile number">Contact:</label>
+             <input type="text" id="mobile" placeholder="Enter your mobile number" required maxlength="10">
+        
+        </div>
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" placeholder="Enter your email address">
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address"placeholder="Enter your address">
+        </div>
+        <div>
+            <label>Province</label>
+            <select>
+                <option value="Province 1">Province 1</option>
+                <option value="Province 2">Province 2</option>
+                <option value="Province 3">Province 3</option>
+                <option value="Province 4">Province 4</option>
+                <option value="Province 5">Province 5</option>
+            </select>
+        </div>
+        <div>
+            <label>Course:</label>
+            <select>
+                <option value="Course">Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M.Tech">M.Tech</option>
+            </select>
+        </div>
+        <div>
+            <label for="description">
+                 <textarea  name="description" id="description" placeholder="Enter a `description" rows="10" cols="30">
+                 </textarea>
+            </label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="Terms & Condition">
+            <label for="Terms & COndition">Terms & Condition</label>
+        </div>
+
+        <div>
+            <label for="photo">Choose Photo</label>
+            <input type="file" id="file">
+        </div>
+        <input type="submit" value="Save">
+        <input type="reset" value="Clear">
+        </form>
+    </fieldset>
+</div>
+</body>
+</html>

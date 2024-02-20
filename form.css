@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="radio"],
+input[type="date"],
+select,
+textarea{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+}
+
+input[type=submit]:hover{
+    background-color: cadetblue;
+}
+
+input[type=reset]{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+}
+
+input[type=reset]:hover{
+    background-color: cadetblue;
+}
+
+textarea::placeholder{
+    color: black;
+}
